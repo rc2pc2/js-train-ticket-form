@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS DOM</title>
+
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+
+        <main>
+            <h1>
+                Ticket Generator
+            </h1>
+
+            <div>
+                <label for="">Insert the distance of your trip:</label>
+                <input type="number" id="user-distance">
+            </div>
+
+            <div>
+                <label for="">Select your age group here:</label>
+                <select name="" id="select-age">
+                    <option value="0">Adult</option>
+                    <option value="1">Kid</option>
+                    <option value="2">Elderly</option>
+                </select>
+            </div>
+
+            <div>
+                <button>
+                    Calculate ticket price
+                </button>
+                <button class="reset-button">
+                    Reset
+                </button>
+            </div>
+
+            <div>
+                <p id="output">
+                    <span class="italic-font">
+                        Generate a new ticket to see its price!
+                    </span>
+                </p>
+            </div>
+        </main>
+
+
+
+        <script src="./js/myscript.js"></script>
+    </body>
+</html>

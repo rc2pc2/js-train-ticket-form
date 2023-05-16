@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(9, 9, 65);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    background-color: white;
+    color: rgb(9, 9, 65);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main>* {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+label{
+    margin-bottom: 1rem;
+    display: block;
+}
+
+input, button, select{
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    padding: .55rem .85rem;
+    background-color: azure;
+}
+
+.italic-font{
+    font-style: italic;
+}
+
+.reset-button{
+    background-color: rgb(255, 255, 186);
+}
